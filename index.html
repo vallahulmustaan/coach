@@ -5,13 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="ff.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <img src="assets/button.png" alt="" id="toTop">
+  
   <title>Тренер</title>
 </head>
 <body>
   <main>
-   <header>
+   <header id="themain">
     <div class="shapka1">
       <img src="assets/logo.svg" alt="logo" class="logo">
     <div class="shapka">
@@ -109,50 +108,8 @@
     <p> <a target="_blank" href="https://t.me/vallahlumustaan">Telegram</a> </p> 
     <p> <a target="_blank" href="https://discordapp.com/users/698986329144426608/">Discord</a></p>
   </footer>
-  
+  <a href="#themain"> <img src="button.png" alt="" id="toTop"></a>
   </main>
-  <script type="text/javascript">
- 
-    $(function() {
-     
-    $(window).scroll(function() {
-     
-    if($(this).scrollTop() != 0) {
-     
-    $('#toTop').fadeIn();
-     
-    } else {
-     
-    $('#toTop').fadeOut();
-     
-    }
-     
-    });
-     
-    $('#toTop').click(function() {
-     
-    $('body,html').animate({scrollTop:0},800);
-     
-    });
-     
-    });
-     
-
-        
-    $('.scrollto a').on('click', function() {
-
-    let href = $(this).attr('href');
-
-    $('html, body').animate({
-        scrollTop: $(href).offset().top
-    }, {
-        duration: 370,   // по умолчанию «400» 
-        easing: "linear" // по умолчанию «swing» 
-    });
-
-    return false;
-    });
-
-    </script>
+  
 </body>
 </html>
