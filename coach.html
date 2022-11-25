@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ff.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <img src="assets/button.png" alt="" id="toTop">
+  <title>Тренер</title>
+</head>
+<body>
+  <main>
+   <header>
+    <div class="shapka1">
+      <img src="assets/logo.svg" alt="logo" class="logo">
+    <div class="shapka">
+      <nav class="item a scrollto">
+        <a href="#">Главная</a>
+        <a href="#service">Услуги</a>
+        <a href="#aboutme">Обо мне</a>
+        <a href="#clients">Клиенты</a>
+      </nav>
+      <img src="assets/phone1.png" alt="phone" class="phone">
+      <a href="tel:+78005553535" class="item tel">+7 800 555-35-35</a>
+    </div>
+    </div>
+    <div class="flex1">
+      <div class="title">
+        <div class="ch">ТВОЙ ТРЕНЕР</div>
+        <div class="name">Алексей Куцаев</div>
+        <hr>
+        <div class="cit">"Требовать невозможное <br> и получить максимум"</div>
+      </div>
+      <div class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dolore.</div>
+    </div>
+  </header>
+  <section>
+    <article>
+      <p id="aboutme">Обо мне</p>
+      <p class="fir">Привет! Я Алексей, но ты можешь звать меня в зал. Я являюсь тренером “Santa Monika” и любимчиком чемпионов по тяжёлой атлетике, ведь к чемпионству их привели занятия со мной!</p>
+      <p class="fir">Немного информации:</p>
+      <ol class="fir">
+        <li>Высшее образование</li>
+        <li>Более 10 сертификатов по спортивным курсам</li>
+        <li>5 лет опыта работы</li>
+        <li>Бывший нападающий "Зенита"</li>
+      </ol>
+      <img class="ch" src="assets/coach2.jpg" alt="coach">
+    </article>
+    <article>
+      <p id="service">Услуги</p>
+      <div class="title2"> <p class="sec">Услуга  </p> <p>Цена</p> </div>
+      <hr id="tab">
+      <div class="list">
+      <ol>
+        <li>Растяжка всего тела</li>
+        <li>Подготовка к марафону</li>
+        <li>Силовая тренировка</li>
+        <li>Групповой фитнес</li>
+        <li>Body Combat (Групповой)</li>
+      </ol>
+      <img src="assets/line.png" alt="" class="vert">
+      <ul>
+        <li>700р/занятие</li>
+        <li>1500р/занятие</li>
+        <li>900р/занятие</li>
+        <li>800р/занятие</li>
+        <li>600р/занятие</li>
+      </ul>
+    </div>
+    <div class="trains">
+      <img src="assets/train.jpg" alt="train">
+      <img src="assets/train1.jpg" alt="train">
+    </div>
+      <img src="assets/mask.png" alt="oh" class="oh">
+    
+    </article>
+    <article>
+      <p id="clients">Клиенты</p>
+      <div class="comment">
+      <figure class="thr">
+        <img src="assets/client1.jpg" alt="" class="cli">
+        
+        <figcaption><img class="speech" src="assets/speech.png" alt="">Артём: Лёша устроил для нас настоящий gym и доказал, что он истинный dungeon 
+          master! <br>
+          Я погрузился в тренировку с головой и не заметил, как стал вторым Роналду.</figcaption>
+      </figure>
+      <figure class="thr">
+        <img src="assets/client2.jpg" alt="" class="cli">
+        
+        <figcaption><img class="speech" src="assets/speech.png" alt="">Мария: Занятия с Лёшей имеют настолько комфортный темп, тёплую атмосферу и дружеский формат общения, что забываешь, где на самом деле находишься, и как, по задумке, должен страдать, лёжа под штангой.
+          Но на этих тренировках меня ждала лишь приятная усталость и ощущение, будто сходил на встречу со старым приятелем.</figcaption>
+      </figure>
+      <figure class="thr">
+        <img src="assets/client3.jpg" alt="" class="cli">
+      
+        <figcaption><img class="speech" src="assets/speech.png" alt="">Лина: У меня был стереотип, что 
+          с тренером-мужчиной я никогда не 
+          смогу добиться желаемого результата, <br> но Алексей разрушил прежние убеждения насчет таких тренировок, и сейчас я могу с уверенностью сказать, что люблю своё тело!</figcaption>
+      </figure>
+      </div>
+      <hr class="hrc">
+    </article>
+  </section>
+  <hr class="hrf">
+  <footer>
+    <p><a target="_blank" href="https://vk.com/stalinsmokesforever">VK</a></p> 
+    <p> <a target="_blank" href="https://t.me/vallahlumustaan">Telegram</a> </p> 
+    <p> <a target="_blank" href="https://discordapp.com/users/698986329144426608/">Discord</a></p>
+  </footer>
+  
+  </main>
+  <script type="text/javascript">
+ 
+    $(function() {
+     
+    $(window).scroll(function() {
+     
+    if($(this).scrollTop() != 0) {
+     
+    $('#toTop').fadeIn();
+     
+    } else {
+     
+    $('#toTop').fadeOut();
+     
+    }
+     
+    });
+     
+    $('#toTop').click(function() {
+     
+    $('body,html').animate({scrollTop:0},800);
+     
+    });
+     
+    });
+     
+
+        
+    $('.scrollto a').on('click', function() {
+
+    let href = $(this).attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(href).offset().top
+    }, {
+        duration: 370,   // по умолчанию «400» 
+        easing: "linear" // по умолчанию «swing» 
+    });
+
+    return false;
+    });
+
+    </script>
+</body>
+</html>

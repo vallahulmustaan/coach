@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&family=Oswald:wght@300;400;500;600&family=Roboto&display=swap');
+body{
+  font-family: Montserrat;
+  background-image: url(assets/Frame3.png);
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+}
+
+main{
+  margin: 0 auto;
+  width: 1280px;
+  position: relative;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.shapka{
+  width: inherit;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+.phone{
+  width: 2.5%;
+  height: 2.5%;
+  margin-left: 15%;
+  margin-top: 0.8%;
+}
+.logo{
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+nav a{
+  margin-right: 71px;
+}
+.tel{
+  font-size: 26px;
+  color: white;
+  text-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+  line-height: 40px;
+  font-style: normal;
+font-weight: 500;
+}
+nav{
+  font-size: 25px;
+}
+.title{
+  width: 30%;
+}
+.ch{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 90px;
+  text-align: center;
+}
+.name{
+  font-size: 38px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -5px;
+}
+.title hr{
+  border: none;
+  background-color: black;
+  height: 1.8px;
+  margin-bottom: 7%;
+}
+.cit{
+  padding-top: 5px;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: center;
+  height: 33%;
+  background: linear-gradient(272.67deg, #C6D6D6 1.57%, #FFFFFF 95.87%);
+  border-radius: 10px;
+  text-shadow: 9px 3px 9px rgb(0 0 0 / 50%);
+}
+.flex1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18%;
+}
+.hidden{
+  display: none;
+}
+section img{
+  width: 300px;
+  border-radius: 10px;
+}
+section{
+  margin-top: 35%;
+  font-size: 30px;
+}
+article{
+  line-height: 56px;
+  width: 100%;
+  height: 1290px;
+  border-radius: 10px;
+  background-color: #F3F3F3;
+  padding-top: 30px;
+  margin-bottom: 10%;
+}
+article:last-child{
+  margin-bottom: 16%;
+}
+.fir{
+  padding-left: 33px;
+}
+.fir li{
+  margin-left: 50px;
+}
+.ch{
+  display: block;
+  width: 87%;
+  margin: 3% auto;
+}
+.sec{
+ padding-left: 10%;
+}
+.trains{
+  display: flex;
+  justify-content: space-around;
+}
+.title2{
+  display: flex;
+  justify-content: space-between ;
+  padding-right: 24%;
+  padding-left: 14%;
+}
+.list{
+  display: flex;
+  margin-bottom: 3%;
+  margin-top: -2%;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 18%;
+}
+#tab{
+  margin-top: -2%;
+  background-color: #000;
+  border: none;
+  height: 1.5px;
+  width: 85%;
+}
+.list li{
+  padding: 0;
+}
+.vert{
+  width: 75px;
+  margin-top: 1px;
+}
+.list ul{
+  list-style: none;
+}
+.trains img{
+  width: 45%;
+}
+.oh{
+  display: block;
+  margin: 0 auto;
+}
+.comment{
+  display: flex;
+  font-size: 24px;
+  margin-left: 2%;
+  line-height: 40px;
+}
+.comment figure{
+  width: 30%;
+}
+.comment figcaption{
+  width: 95%;
+}
+.speech{
+  width: 10%;
+}
+.hrc{
+  height: 5px;
+  background-color: #fff;
+  width: 100%;
+  border: none;
+  margin-top: 8%;
+} 
+#aboutme, #service, #clients{
+  font-weight: 500;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: -0.5%;
+}
+
+footer{
+  font-size: 26px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+footer p{
+  transition: 0.5s;
+}
+.hrf{
+  background-color: #000;
+  border: none;
+  height: 2px;
+}
+a:hover{
+  color: #464646;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+footer p:hover{
+  transform: scale(1.07);
+}
+.shapka a:hover{
+  transform: scale(1.07);;
+}
+#toTop{
+  position: fixed;
+  width: 70px;
+  right: 0;
+  bottom: 3%;
+  z-index: 100;
+}
+
+
+
+
+
+@media screen and (min-width: 1914px) and (max-width: 2560px){
+  body{
+    background-image: url(assets/bg1.png);
+    background-size: 100%;
+  }
+  section{
+    margin-top: 50%;
+  }
+  nav {
+    font-size: 30px;
+  }
+  .shapka{
+    margin-left: 18%;
+  }
+  .logo{
+    width: 13%;
+  }
+  .tel{
+    font-size: 28px;
+  }
+  .flex1{
+    margin-top: 21%;
+  }
+  .ch{
+    font-size: 64px;
+    width: 91%;
+  }
+  .name{
+    font-size: 48px;
+  }
+  .cit{
+    font-size: 36px;
+    padding-top: 12px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1501px) and (max-width: 2560px){
+  body{
+    background-image: url(assets/bg1.png);
+  }
+  section{
+    margin-top: 50%;
+  }
+  nav {
+    font-size: 30px;
+  }
+  .shapka{
+    margin-left: 18%;
+  }
+  .logo{
+    width: 13%;
+  }
+  .tel{
+    font-size: 28px;
+  }
+  .flex1{
+    margin-top: 21%;
+  }
+  .ch{
+    font-size: 64px;
+    width: 91%;
+  }
+  .name{
+    font-size: 48px;
+  }
+  .cit{
+    font-size: 36px;
+    padding-top: 12px;
+  }
+}
+
+@media screen and (min-width: 2199px) and (max-width: 2560px){
+  section{
+    margin-top: 70%;
+  }
+}
+@media screen and (min-width: 2400px) and (max-width: 2560px){
+  body{
+    background-image: url(assets/bg1.png);
+    background-size: 100%;
+  }
+  nav {
+    font-size: 30px;
+  }
+  .shapka{
+    margin-left: 18%;
+  }
+  .logo{
+    width: 13%;
+  }
+  .tel{
+    font-size: 28px;
+  }
+  .flex1{
+    margin-top: 30%;
+  }
+  .ch{
+    font-size: 64px;
+    width: 91%;
+  }
+  .name{
+    font-size: 48px;
+  }
+  .cit{
+    font-size: 36px;
+    padding-top: 12px;
+  }
+}
